@@ -1,6 +1,6 @@
 void main() {
   bool primeiraBool = true;
-  bool segundaBool = false;
+  bool segundabool = false;
 
   List<bool> booleanList = [true, false, primeiraBool];
 
