@@ -2,30 +2,23 @@ void main() {
   Map<String, int> scores = {"Gabriel": 95};
 
   print(scores);
-
   print(scores["Gabriel"]);
 
   scores["Maria"] = 92;
-
   print(scores);
 
   scores.remove("Gabriel");
-
   print(scores);
 
-  bool contaisGabriel = scores.containsKey("Gabriel");
-
+  bool containsGabriel = scores.containsKey("Gabriel");
   bool containsMaria = scores.containsKey("Maria");
 
-  bool containsVelueGabriel = scores.containsValue(95);
+  bool containsValueGabriel = scores.containsValue(95);
+  bool containsValueMaria = scores.containsValue(92);
 
-  bool containsVelueMaria = scores.containsValue(92);
+  print("Contains Gabriel (key): $containsGabriel");
+  print("Contains Maria (key): $containsMaria");
 
-  print("Contains Key: $contaisGabriel");
-
-  print("Contains Key: $containsMaria");
-
-  print("Contains Key: $containsVelueGabriel");
-
-  print("Contains Key: $containsVelueMaria");
+  print("Contains 95: $containsValueGabriel");
+  print("Contains 92: $containsValueMaria");
 }
