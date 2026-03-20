@@ -3,7 +3,7 @@ void main() {
 
   if (idade < 12) {
     print("Criança");
-  } else if (idade <= 17) {
+  } else if (idade >= 12 && idade <= 17) {
     print("Adolescente");
   } else if (idade < 60) {
     print("Adulto");
