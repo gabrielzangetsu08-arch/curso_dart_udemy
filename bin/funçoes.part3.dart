@@ -1,7 +1,5 @@
-import 'funçoes.part2.dart';
-
 void main() {
-  final nomecompleto = criarNomecompleto("Gabriel", "Alves");
+  final nomecompleto = ("Gabriel", "Alves");
 
   print("Nome Completo $nomecompleto");
 
